@@ -1,0 +1,180 @@
+body {
+    background-image: url(1.jpg);
+    background-color: #9f7e6d;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed ;
+    color: #5f1444;
+  
+}
+form, #containerTwo {
+    background-color: rgb(245, 245, 245, 0.7);
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 80px;
+}
+
+li {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+#container {
+display: flex;
+flex-direction: column;
+}
+
+
+h1 {
+   align-self: center;
+   padding: 10px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+}
+
+label {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    color: #472a4ded;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+ 
+}
+
+input {
+padding: 10px 50px;
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+
+.btn {
+background-color: rgb(221,119,153, 0.7); 
+width: 100%;
+border: 1px solid rgb(135, 129, 189);
+padding: 15px;
+font-size: 18px;
+margin-top: 10px;
+border-radius: 10px;
+font-family: 'Montserrat', sans-serif;
+color: #022E57;
+font-weight: bold;
+}
+ 
+.btn:hover {
+    background-color: rgb(95,146,162, 0.7);
+}
+.par {
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.option {
+font-size: 18px;
+margin-left: 10px;
+padding: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #022E57;
+    align-self: center;
+}
+
+.home {
+    background-color: rgb(221,119,153, 0.7); 
+    width: 100%;
+    border: 1px solid rgb(135, 129, 189);
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #022E57;
+    font-weight: bold;
+    }
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #5f1444;
+
+}
+
+
+@media all and (max-width: 800px) {
+    form {
+      width: 80%;
+      padding: 40px;
+      padding : 10px;
+    }
+    input {
+      padding: 5px 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    h1 {
+      font-size: 23px;
+    }
+    form {
+      width: 90%;
+      padding: 23px;
+    }
+  
+    label {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    input {
+      padding: 15px 25px;
+      margin-top: 10px;
+      margin-bottom: 7px;
+      flex: 0 0 50%;
+    }
+    .option {
+        display: flex;
+        flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 16px;
+      padding: 15px;
+      margin-left: 0px;
+    }
+    .par {
+      font-size: 16px;
+      text-align: center;
+    }
+    .btn {
+
+      border: 1px solid rgb(135, 129, 189);
+      padding: 15px;
+      font-size: 16px;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+
+    #containerTwo {
+        width: 80%;
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .home {
+        width: 100%;
+        padding: 10px;
+        font-size: 12px;
+        margin-top: 7px;
+        font-weight: normal;
+    }
+  }
